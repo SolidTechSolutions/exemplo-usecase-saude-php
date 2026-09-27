@@ -23,11 +23,11 @@ Padrão: médico (`2.16.76.1.4.2.2.*`, configurável em `.env`). Outras: farmac�
 ```bash
 composer install
 cp .env.example .env   # edite com seu token
-php -S 0.0.0.0:8097 -t public
+php -S 0.0.0.0:8100 -t public
 ```
 
 ```
-curl -X POST http://localhost:8097/api/saude/sign-documento \
+curl -X POST http://localhost:8100/api/saude/sign-documento \
   -F "document=@receita.pdf" -F "kmsCode=$KMS_CODE" -F "documentType=prescricao" \
   -F "professionalName=Fulano de Tal" -F "professionalRegistro=123456" \
   -F "professionalUf=SP" -F "professionalEspecialidade=Cardiologia" \
@@ -64,7 +64,7 @@ This project demonstrates integrating with the **SolidSign API** to sign health 
 ```bash
 composer install
 cp .env.example .env
-php -S 0.0.0.0:8097 -t public
+php -S 0.0.0.0:8100 -t public
 ```
 
 ## Other certification methods
@@ -97,7 +97,7 @@ Este proyecto demuestra la integración con la **SolidSign API** para firmar doc
 ```bash
 composer install
 cp .env.example .env
-php -S 0.0.0.0:8097 -t public
+php -S 0.0.0.0:8100 -t public
 ```
 
 ## Otros métodos de certificación

@@ -4,10 +4,10 @@ declare(strict_types=1);
 /**
  * [EN]    Health Documents (Receita Médica e correlatos) use case — single sign+rubric endpoint, KMS custody.
  *         Setup: composer install && cp .env.example .env  (edit .env)
- *         Run:   php -S 0.0.0.0:8097 -t public
+ *         Run:   php -S 0.0.0.0:8100 -t public
  * [PT-BR] Caso de uso Documentos de Saúde — endpoint único de assinatura+rubrica, custódia KMS.
  *         Configurar: composer install && cp .env.example .env  (editar .env)
- *         Executar:   php -S 0.0.0.0:8097 -t public
+ *         Executar:   php -S 0.0.0.0:8100 -t public
  */
 
 require __DIR__ . '/../vendor/autoload.php';
